@@ -1,0 +1,13 @@
+game size: 3994504 | orig size: 3994504
+game sha: b5da10495563992a
+orig sha: b5da10495563992a
+game == orig: True
+
+Проверка сегментов в файле ИГРЫ:
+  seg 1720  (4930.9, -655.9)-(5013.6, -584.5)  ORIGINAL (не тронут)
+  seg 1721  (4930.7, -656.0)-(5013.3, -584.5)  ORIGINAL (не тронут)
+  seg 485   (5446.2, 491.3)-(5468.3, 441.1)  ORIGINAL (не тронут)
+  seg 1640  (6447.0, -308.1)-(6431.3, -336.8)  ORIGINAL (не тронут)
+
+Создан тестовый файл: C:\Users\Иосиф\Downloads\Tracks_big_and small_files\L5RA_zero4D.BUN 3994504 байт (секция 0003414D обнулена)
+Press Enter...
