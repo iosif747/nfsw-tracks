@@ -1,0 +1,17 @@
+CARP payload @2D5688 size=622088
+  noHEAD  обнулено   24160 Б  -> L5RA_noHEAD.BUN
+  noRNnd  обнулено  240656 Б  -> L5RA_noRNnd.BUN
+  noRNpf  обнулено   77616 Б  -> L5RA_noRNpf.BUN
+  noRNrd  обнулено   17232 Б  -> L5RA_noRNrd.BUN
+  noRNsg  обнулено  261912 Б  -> L5RA_noRNsg.BUN
+
+--- координаты в стримах: локальные или абсолютные? ---
+  STREAML5RA_0x943724AE.BUN          size= 176896  значений=  2814  |v|>2000:   377 (13.4%)  min=-29882.8 max=29618.3
+  STREAML5RA_0x46E8C858.BUN          size=   3176  значений=   231  |v|>2000:    12 (5.2%)  min=-25088.0 max=13709.0
+  STREAML5RA_0xB4BD879F.BUN          size=  12800  значений=    49  |v|>2000:     4 (8.2%)  min=-4213.1 max=3365.3
+  STREAML5RA_509.BUN                 size= 583392  значений= 36726  |v|>2000:  3381 (9.2%)  min=-16401.3 max=28974.7
+  STREAML5RA_0x16B7A8F7.BUN          size=  10524  значений=   865  |v|>2000:     6 (0.7%)  min=-11556.2 max=28841.9
+  STREAML5RA_0x2208EF15.BUN          size=  80968  значений=  6570  |v|>2000:     9 (0.1%)  min=-2450.0 max=12622.0
+  STREAML5RA_0xF0931A4F.BUN          size= 176640  значений=  2414  |v|>2000:     6 (0.2%)  min=-27910.3 max=3365.3
+  STREAML5RA_0x2C9BC9ED.BUN          size=   7260  значений=   232  |v|>2000:     6 (2.6%)  min=-3807.4 max=2344.5
+Press Enter...
