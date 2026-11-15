@@ -1,0 +1,432 @@
+читаю: C:\Users\Иосиф\Downloads\Tracks_big_and small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml
+
+===== блок @строк 195..198 =====
+    195: - ParentName: world_activity
+    196:   Name: menu_gate
+    197:   Data:
+
+===== блок @строк 198..201 =====
+    198:     CollectionName: menu_gate
+    199:     Template: true
+    200:     Name: menu_gate
+
+===== блок @строк 201..204 =====
+    201: - ParentName: menu_gate
+    202:   Name: menu_gate_carlot
+    203:   Data:
+
+===== блок @строк 204..218 =====
+    204:     CollectionName: menu_gate_carlot
+    205:     Template: false
+    206:     Children:
+    207:       Capacity: 4
+    208:       Data:
+    209:       - ClassKey: gameplay
+    210:         CollectionKey: menu_gate_carlot/carlot_muscle
+    211:       - ClassKey: gameplay
+    212:         CollectionKey: menu_gate_carlot/carlot_exotic
+    213:       - ClassKey: gameplay
+    214:         CollectionKey: menu_gate_carlot/carlot_tuner01
+    215:       - ClassKey: gameplay
+    216:         CollectionKey: menu_gate_carlot/carlot_tuner02
+    217:     Name: menu_gate_carlot
+
+===== блок @строк 218..221 =====
+    218: - ParentName: menu_gate
+    219:   Name: menu_gate_safehouse
+    220:   Data:
+
+===== блок @строк 221..235 =====
+    221:     CollectionName: menu_gate_safehouse
+    222:     Template: false
+    223:     Children:
+    224:       Capacity: 4
+    225:       Data:
+    226:       - ClassKey: gameplay
+    227:         CollectionKey: menu_gate_safehouse/safehouse_muscle
+    228:       - ClassKey: gameplay
+    229:         CollectionKey: menu_gate_safehouse/safehouse_tuner
+    230:       - ClassKey: gameplay
+    231:         CollectionKey: menu_gate_safehouse/safehouse_exotic
+    232:       - ClassKey: gameplay
+    233:         CollectionKey: menu_gate_safehouse/safehouse_highway
+    234:     Name: menu_gate_safehouse
+
+===== блок @строк 6176..6179 =====
+   6176: - ParentName: challengerace
+   6177:   Name: challengerace_roadblocks_dodged
+   6178:   Data:
+
+===== блок @строк 6179..6182 =====
+   6179:     CollectionName: challengerace_roadblocks_dodged
+   6180:     Template: true
+   6181:     Name: challengerace_roadblocks_dodged
+
+===== блок @строк 41180..41183 =====
+  41180: - ParentName: baseelement
+  41181:   Name: perfect_start_info
+  41182:   Data:
+
+===== блок @строк 41183..41188 =====
+  41183:     CollectionName: perfect_start_info
+  41184:     Template: true
+  41185:     Name: perfect_start_info
+  41186:     PerfectStartBaseDuration: 1.5
+  41187:     PerfectStartBaseRange: 10
+
+===== блок @строк 64505..64508 =====
+  64505: - ParentName: event_schedule
+  64506:   Name: server/event_schedules/oct/oct_2012_31
+  64507:   Data:
+
+===== блок @строк 64508..64542 =====
+  64508:     CollectionName: server/event_schedules/oct/oct_2012_31
+  64509:     Template: false
+  64510:     EndDateTime: 634873248000000000
+  64511:     EventIdList:
+  64512:       Capacity: 26
+  64513:       Data:
+  64514:       - 20
+  64515:       - 14
+  64516:       - 146
+  64517:       - 30
+  64518:       - 54
+  64519:       - 5
+  64520:       - 57
+  64521:       - 77
+  64522:       - 82
+  64523:       - 79
+  64524:       - 376
+  64525:       - 368
+  64526:       - 370
+  64527:       - 357
+  64528:       - 377
+  64529:       - 375
+  64530:       - 392
+  64531:       - 393
+  64532:       - 385
+  64533:       - 388
+  64534:       - 501
+  64535:       - 502
+  64536:       - 509
+  64537:       - 510
+  64538:       - 515
+  64539:       - 517
+  64540:     Name: server/event_schedules/oct/oct_2012_31
+  64541:     StartDateTime: 634872384000000000
+
+===== блок @строк 64875..64878 =====
+  64875: - ParentName: event_schedule
+  64876:   Name: server/event_schedules/oct/oct_2012_20
+  64877:   Data:
+
+===== блок @строк 64878..64912 =====
+  64878:     CollectionName: server/event_schedules/oct/oct_2012_20
+  64879:     Template: false
+  64880:     EndDateTime: 634863744000000000
+  64881:     EventIdList:
+  64882:       Capacity: 26
+  64883:       Data:
+  64884:       - 97
+  64885:       - 71
+  64886:       - 146
+  64887:       - 81
+  64888:       - 131
+  64889:       - 36
+  64890:       - 50
+  64891:       - 295
+  64892:       - 61
+  64893:       - 82
+  64894:       - 376
+  64895:       - 368
+  64896:       - 370
+  64897:       - 357
+  64898:       - 377
+  64899:       - 375
+  64900:       - 392
+  64901:       - 393
+  64902:       - 385
+  64903:       - 387
+  64904:       - 501
+  64905:       - 502
+  64906:       - 509
+  64907:       - 510
+  64908:       - 515
+  64909:       - 517
+  64910:     Name: server/event_schedules/oct/oct_2012_20
+  64911:     StartDateTime: 634862880000000000
+
+===== блок @строк 64912..64915 =====
+  64912: - ParentName: event_schedule
+  64913:   Name: server/event_schedules/oct/oct_2012_21
+  64914:   Data:
+
+===== блок @строк 64915..64949 =====
+  64915:     CollectionName: server/event_schedules/oct/oct_2012_21
+  64916:     Template: false
+  64917:     EndDateTime: 634864608000000000
+  64918:     EventIdList:
+  64919:       Capacity: 26
+  64920:       Data:
+  64921:       - 29
+  64922:       - 14
+  64923:       - 120
+  64924:       - 26
+  64925:       - 290
+  64926:       - 157
+  64927:       - 145
+  64928:       - 32
+  64929:       - 76
+  64930:       - 307
+  64931:       - 376
+  64932:       - 368
+  64933:       - 370
+  64934:       - 357
+  64935:       - 377
+  64936:       - 375
+  64937:       - 392
+  64938:       - 393
+  64939:       - 386
+  64940:       - 384
+  64941:       - 501
+  64942:       - 502
+  64943:       - 509
+  64944:       - 510
+  64945:       - 515
+  64946:       - 517
+  64947:     Name: server/event_schedules/oct/oct_2012_21
+  64948:     StartDateTime: 634863744000000000
+
+===== блок @строк 64949..64952 =====
+  64949: - ParentName: event_schedule
+  64950:   Name: server/event_schedules/oct/oct_2012_22
+  64951:   Data:
+
+===== блок @строк 64952..64986 =====
+  64952:     CollectionName: server/event_schedules/oct/oct_2012_22
+  64953:     Template: false
+  64954:     EndDateTime: 634865472000000000
+  64955:     EventIdList:
+  64956:       Capacity: 26
+  64957:       Data:
+  64958:       - 28
+  64959:       - 35
+  64960:       - 80
+  64961:       - 54
+  64962:       - 45
+  64963:       - 57
+  64964:       - 52
+  64965:       - 55
+  64966:       - 61
+  64967:       - 77
+  64968:       - 376
+  64969:       - 368
+  64970:       - 370
+  64971:       - 357
+  64972:       - 377
+  64973:       - 375
+  64974:       - 392
+  64975:       - 393
+  64976:       - 383
+  64977:       - 389
+  64978:       - 501
+  64979:       - 502
+  64980:       - 509
+  64981:       - 510
+  64982:       - 515
+  64983:       - 517
+  64984:     Name: server/event_schedules/oct/oct_2012_22
+  64985:     StartDateTime: 634864608000000000
+
+===== блок @строк 64986..64989 =====
+  64986: - ParentName: event_schedule
+  64987:   Name: server/event_schedules/oct/oct_2012_19
+  64988:   Data:
+
+===== блок @строк 64989..65023 =====
+  64989:     CollectionName: server/event_schedules/oct/oct_2012_19
+  64990:     Template: false
+  64991:     EndDateTime: 634862880000000000
+  64992:     EventIdList:
+  64993:       Capacity: 26
+  64994:       Data:
+  64995:       - 296
+  64996:       - 25
+  64997:       - 47
+  64998:       - 45
+  64999:       - 41
+  65000:       - 23
+  65001:       - 9
+  65002:       - 77
+  65003:       - 32
+  65004:       - 79
+  65005:       - 376
+  65006:       - 368
+  65007:       - 370
+  65008:       - 357
+  65009:       - 377
+  65010:       - 375
+  65011:       - 392
+  65012:       - 393
+  65013:       - 384
+  65014:       - 383
+  65015:       - 501
+  65016:       - 502
+  65017:       - 509
+  65018:       - 510
+  65019:       - 515
+  65020:       - 517
+  65021:     Name: server/event_schedules/oct/oct_2012_19
+  65022:     StartDateTime: 634862016000000000
+
+===== блок @строк 65023..65026 =====
+  65023: - ParentName: event_schedule
+  65024:   Name: server/event_schedules/oct/oct_2012_16
+  65025:   Data:
+
+===== блок @строк 65026..65060 =====
+  65026:     CollectionName: server/event_schedules/oct/oct_2012_16
+  65027:     Template: false
+  65028:     EndDateTime: 634860288000000000
+  65029:     EventIdList:
+  65030:       Capacity: 26
+  65031:       Data:
+  65032:       - 305
+  65033:       - 25
+  65034:       - 81
+  65035:       - 309
+  65036:       - 19
+  65037:       - 49
+  65038:       - 289
+  65039:       - 298
+  65040:       - 82
+  65041:       - 295
+  65042:       - 376
+  65043:       - 368
+  65044:       - 370
+  65045:       - 357
+  65046:       - 377
+  65047:       - 375
+  65048:       - 392
+  65049:       - 393
+  65050:       - 387
+  65051:       - 385
+  65052:       - 501
+  65053:       - 502
+  65054:       - 509
+  65055:       - 510
+  65056:       - 515
+  65057:       - 517
+  65058:     Name: server/event_schedules/oct/oct_2012_16
+  65059:     StartDateTime: 634859424000000000
+
+===== блок @строк 65060..65063 =====
+  65060: - ParentName: event_schedule
+  65061:   Name: server/event_schedules/oct/oct_2012_17
+  65062:   Data:
+
+===== блок @строк 65063..65097 =====
+  65063:     CollectionName: server/event_schedules/oct/oct_2012_17
+  65064:     Template: false
+  65065:     EndDateTime: 634861152000000000
+  65066:     EventIdList:
+  65067:       Capacity: 26
+  65068:       Data:
+  65069:       - 39
+  65070:       - 16
+  65071:       - 26
+  65072:       - 31
+  65073:       - 19
+  65074:       - 36
+  65075:       - 15
+  65076:       - 32
+  65077:       - 307
+  65078:       - 76
+  65079:       - 376
+  65080:       - 368
+  65081:       - 370
+  65082:       - 357
+  65083:       - 377
+  65084:       - 375
+  65085:       - 392
+  65086:       - 393
+  65087:       - 387
+  65088:       - 385
+  65089:       - 501
+  65090:       - 502
+  65091:       - 509
+  65092:       - 510
+  65093:       - 515
+  65094:       - 517
+  65095:     Name: server/event_schedules/oct/oct_2012_17
+  65096:     StartDateTime: 634860288000000000
+
+===== блок @строк 65097..65100 =====
+  65097: - ParentName: event_schedule
+  65098:   Name: server/event_schedules/oct/oct_2012_18
+  65099:   Data:
+
+(первые 25 блоков)
+
+--- поля-ссылки/флаги внутри найденных блоков ---
+    169: Template: false
+    186: Template: true
+    193: Template: true
+    199: Template: true
+    205: Template: false
+    210: CollectionKey: menu_gate_carlot/carlot_muscle
+    212: CollectionKey: menu_gate_carlot/carlot_exotic
+    214: CollectionKey: menu_gate_carlot/carlot_tuner01
+    216: CollectionKey: menu_gate_carlot/carlot_tuner02
+    222: Template: false
+    227: CollectionKey: menu_gate_safehouse/safehouse_muscle
+    229: CollectionKey: menu_gate_safehouse/safehouse_tuner
+    231: CollectionKey: menu_gate_safehouse/safehouse_exotic
+    233: CollectionKey: menu_gate_safehouse/safehouse_highway
+    239: Template: true
+    245: Template: true
+    251: Template: true
+    257: Template: true
+    263: Template: false
+    268: CollectionKey: race_bin_16/drive_to_safe_house/gpstarget
+    274: Template: true
+   6139: CollectionKey: rewards/treasurehunt
+   6144: Template: true
+   6156: Template: true
+   6162: Template: true
+   6168: Template: true
+   6174: Template: true
+   6180: Template: true
+   6186: Template: true
+   6192: Template: true
+   6198: Template: true
+   6204: Template: true
+  41184: Template: true
+  41192: Template: true
+  41198: Template: false
+  41203: CollectionKey: objectives/singleplayer_pursuit/cops_deployed_01
+  41205: CollectionKey: objectives/singleplayer_pursuit/cops_deployed_02
+  41207: CollectionKey: objectives/singleplayer_pursuit/cops_deployed_03
+  41209: CollectionKey: objectives/singleplayer_pursuit/cops_deployed_04
+  41211: CollectionKey: objectives/singleplayer_pursuit/cops_deployed_05
+  41213: CollectionKey: objectives/singleplayer_pursuit/cops_disabled_01
+  41215: CollectionKey: objectives/singleplayer_pursuit/cops_disabled_02
+  41217: CollectionKey: objectives/singleplayer_pursuit/cops_disabled_03
+  41219: CollectionKey: objectives/singleplayer_pursuit/cops_disabled_04
+  41221: CollectionKey: objectives/singleplayer_pursuit/cops_disabled_05
+  41223: CollectionKey: objectives/singleplayer_pursuit/cops_tagged_01
+  41225: CollectionKey: objectives/singleplayer_pursuit/cops_tagged_02
+  41227: CollectionKey: objectives/singleplayer_pursuit/cops_tagged_03
+  64472: Template: false
+  64509: Template: false
+  64546: Template: false
+  64842: Template: false
+  64879: Template: false
+  64916: Template: false
+  64953: Template: false
+  64990: Template: false
+  65027: Template: false
+  65064: Template: false
+  65101: Template: false
+  65138: Template: false
+Press Enter...
