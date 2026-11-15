@@ -1,0 +1,168 @@
+стримов: 5789
+  ... обработано 1000 файлов
+  ... обработано 2000 файлов
+  ... обработано 3000 файлов
+  ... обработано 4000 файлов
+  ... обработано 5000 файлов
+
+=== НАЙДЕНО ТРОЕК В РАДИУСЕ 300 ОТ (5000.0, -640.0): 138964 ===
+
+STREAML5RA_0x06EA54A8.BUN @25312 (0x62E0): (5102.76, -487.59, 0.00) dist=183.8
+  модели рядом: ['SFX_Flare_Light_01_D', 'ARC_Brick_StoneGray_01_D', 'ARC_Concrete_Stairs_02_D', 'ARC_Railing_Concrete_01_D', 'ARC_Concrete_Clean_06_D', 'XOU_CTOVERPASSL_1C_00']
+
+STREAML5RA_0x06EA54A8.BUN @35920 (0x8C50): (5102.76, -653.98, 0.00) dist=103.7
+  модели рядом: ['SFX_Flare_Light_01_D', 'ARC_Brick_StoneGray_01_D', 'ARC_Concrete_Stairs_02_D', 'ARC_Railing_Concrete_01_D', 'ARC_Concrete_Clean_06_D', 'XOU_CTOVERPASSL_1Z_00']
+
+STREAML5RA_0x0958A29B.BUN @4336 (0x10F0): (5090.06, -532.66, 0.00) dist=140.1
+  модели рядом: ['ARC_OldConsA_WallA_LL_Industrial10507', 'XB_CONSUNITB_2Z_LL_00', 'ARC_OldConsA_WallA_LL_In']
+
+STREAML5RA_0x1E11CC5E.BUN @336 (0x150): (4942.31, -549.63, 0.00) dist=107.2
+  модели рядом: ['eLabScenery_L2RA_Library_Signs', 'x1E11CC5E', 'XS_FWY_2DOWNARROWS_1B_EA', 'SGN_FWY_ArrowDown2Lane_E']
+
+STREAML5RA_0x26A5E6D5.BUN @12112 (0x2F50): (4972.31, -549.63, 0.00) dist=94.5
+  модели рядом: ['eLabScenery_L2RA_Library_Signs', 'x26A5E6D5', 'XS_FWY_2UPARROWS_1B_EA_00', 'SGN_FWY_ArrowUp2LaneLR_E']
+
+STREAML5RA_0x3245FF0F.BUN @336 (0x150): (5032.31, -549.63, 0.00) dist=96.0
+  модели рядом: ['eLabScenery_L2RA_Library_Signs', 'x3245FF0F', 'XS_FWY_NEXTEXIT_1B_EA', 'NextExit_Signs11599']
+
+STREAML5RA_0x3F10BDF0.BUN @3152 (0xC50): (4852.63, -531.48, 0.00) dist=183.0
+  модели рядом: ['OBJ_IronFrameA_LL_Industrial10502', 'eLabScenery_L2RA_Library_Building_Industrial_PART1', 'x3F10BDF0', 'DXO_IF_FRAMEA_1Z_LL_00', 'OBJ_IronFrameA_LL_Industrial10502']
+
+STREAML5RA_0x5F3EA134.BUN @3216 (0xC90): (5178.02, -531.48, 0.00) dist=208.5
+  модели рядом: ['ARC_Crossbeam_C_LL_Industrial10514', 'ARC_MetalRustA_WH_Industrial10515', 'XO_IRONBRIDGEA_1Z_LL_00', 'ARC_MetalRustA_WH_Indust']
+
+STREAML5RA_0x62497104.BUN @336 (0x150): (5214.20, -531.48, 0.00) dist=240.1
+  модели рядом: ['eLabScenery_L2RA_Library_Building_Industrial_PART0', 'x62497104', 'XB_SCAFFOLDSM_AA_1Z_LL_00']
+
+STREAML5RA_0x6D1BB4F1.BUN @3520 (0xDC0): (4974.64, -531.48, 0.00) dist=111.4
+  модели рядом: ['ARC_Crossbeam_C_LL_Industrial10510', 'ARC_SteelGuirder_01_Industrial10511', 'XO_IRONPIPECROSSA_BEAM_1Z_LL_00']
+
+STREAML5RA_0x6E9761D7.BUN @1061220 (0x103164): (5172.38, -525.81, 0.00) dist=206.8
+  модели рядом: []
+
+STREAML5RA_0x7C796572.BUN @12112 (0x2F50): (5242.31, -579.63, 0.00) dist=249.7
+  модели рядом: ['eLabScenery_L2RA_Library_Signs', 'x7C796572', 'BXS_FREEWAYENDSNP_2B_00']
+
+STREAML5RA_0x89A30E20.BUN @3280 (0xCD0): (5044.83, -532.66, 0.00) dist=116.3
+  модели рядом: ['ARC_OldConsA_WallA_LL_Industrial10273', 'ARC_OldConsA_PillarA_LL_Industrial10274', 'eLabScenery_L2RA_Library_Building_Industrial_PART1', 'x89A30E20', 'XB_CONSUNITC_2Z_LL_00']
+
+STREAML5RA_0x93FF90B1.BUN @336 (0x150): (5002.31, -669.63, 0.00) dist=29.7
+  модели рядом: ['eLabScenery_L2RA_Library_Signs', 'x93FF90B1', 'XS_GP_RT55NORTH_1B_EA_00', 'SGN_FWY_Route55_North_EA']
+
+STREAML5RA_0x955152BF.BUN @336 (0x150): (5002.31, -549.63, 0.00) dist=90.4
+  модели рядом: ['eLabScenery_L2RA_Library_Signs', 'x955152BF', 'XS_FWY_LRARROW_1B_EA', 'SGN_FWY_ArrowLR_EA', 'tga_S']
+
+STREAML5RA_0xC558C72F.BUN @12112 (0x2F50): (4912.31, -669.63, 0.00) dist=92.6
+  модели рядом: ['eLabScenery_L2RA_Library_Signs', 'xC558C72F', 'XS_GP_DUNWICHVILLAGE_1B_EA_00', 'DunwichVillage_Signs1146']
+
+STREAML5RA_0xE98396A2.BUN @12112 (0x2F50): (4942.31, -669.63, 0.00) dist=64.9
+  модели рядом: ['eLabScenery_L2RA_Library_Signs', 'xE98396A2', 'XS_GP_NORTHBAY_1B_EA_00', 'NorthBay_Signs11484']
+
+STREAML5RA_0xEE8C1D37.BUN @336 (0x150): (4912.31, -549.63, 0.00) dist=125.9
+  модели рядом: ['eLabScenery_L2RA_Library_Signs', 'xEE8C1D37', 'XS_FWY_1UPARROW_1B_EA', 'SGN_FWY_ArrowUpLR_EA']
+
+STREAML5RA_3004.BUN @256 (0x100): (5023.11, -668.16, 25.42) dist=36.4
+  модели рядом: ['eLabScenery_L5_Library_Objects_PART0', 'XOU_WOODBOXA_1B_00_DEINST1_D4']
+
+STREAML5RA_3004.BUN @272 (0x110): (5118.73, -619.24, 32.30) dist=120.5
+  модели рядом: ['eLabScenery_L5_Library_Objects_PART0', 'XOU_WOODBOXA_1B_00_DEINST1_D4']
+
+STREAML5RA_3004.BUN @528 (0x210): (5023.11, -668.16, 25.42) dist=36.4
+  модели рядом: ['eLabScenery_L5_Library_Objects_PART0', 'XOU_WOODBOXA_1B_00_DEINST1_D4']
+
+STREAML5RA_3004.BUN @540 (0x21C): (5118.73, -619.24, 32.30) dist=120.5
+  модели рядом: ['eLabScenery_L5_Library_Objects_PART0', 'XOU_WOODBOXA_1B_00_DEINST1_D4']
+
+STREAML5RA_3004.BUN @5696 (0x1640): (5094.02, -630.91, 28.60) dist=94.5
+  модели рядом: []
+
+STREAML5RA_3004.BUN @5760 (0x1680): (5115.77, -645.95, 29.25) dist=115.9
+  модели рядом: []
+
+STREAML5RA_3004.BUN @5824 (0x16C0): (5088.55, -633.28, 28.52) dist=88.8
+  модели рядом: []
+
+STREAML5RA_3004.BUN @5888 (0x1700): (5083.69, -631.90, 26.87) dist=84.1
+  модели рядом: []
+
+STREAML5RA_3004.BUN @5952 (0x1740): (5108.76, -644.66, 27.49) dist=108.9
+  модели рядом: []
+
+STREAML5RA_3004.BUN @6016 (0x1780): (5038.16, -666.34, 27.37) dist=46.4
+  модели рядом: []
+
+STREAML5RA_3004.BUN @6080 (0x17C0): (5052.90, -621.16, 27.68) dist=56.2
+  модели рядом: []
+
+STREAML5RA_3004.BUN @6144 (0x1800): (5025.22, -663.01, 25.48) dist=34.1
+  модели рядом: []
+
+STREAML5RA_3004.BUN @54784 (0xD600): (5073.82, -682.84, 26.34) dist=85.3
+  модели рядом: ['XOu_WoodBoxA', 'XOU_CRATESA_1B_00_DEINST1_D4']
+
+STREAML5RA_3004.BUN @54800 (0xD610): (5122.25, -619.30, 32.90) dist=124.0
+  модели рядом: ['XOu_WoodBoxA', 'XOU_CRATESA_1B_00_DEINST1_D4']
+
+STREAML5RA_3004.BUN @55056 (0xD710): (5073.82, -682.84, 26.34) dist=85.3
+  модели рядом: ['XOu_WoodBoxA', 'XOU_CRATESA_1B_00_DEINST1_D4']
+
+STREAML5RA_3004.BUN @55068 (0xD71C): (5122.25, -619.30, 32.90) dist=124.0
+  модели рядом: ['XOu_WoodBoxA', 'XOU_CRATESA_1B_00_DEINST1_D4']
+
+STREAML5RA_3004.BUN @56912 (0xDE50): (5082.33, -680.35, 26.44) dist=91.7
+  модели рядом: []
+
+STREAML5RA_3004.BUN @56976 (0xDE90): (5076.55, -621.66, 28.14) dist=78.7
+  модели рядом: []
+
+STREAML5RA_3004.BUN @57040 (0xDED0): (5119.58, -639.64, 29.25) dist=119.6
+  модели рядом: []
+
+STREAML5RA_3004.BUN @57104 (0xDF10): (5114.31, -638.38, 27.28) dist=114.3
+  модели рядом: []
+
+STREAML5RA_3004.BUN @57168 (0xDF50): (5098.79, -632.23, 28.72) dist=99.1
+  модели рядом: []
+
+STREAML5RA_3004.BUN @57232 (0xDF90): (5092.83, -666.99, 28.75) dist=96.7
+  модели рядом: []
+
+STREAML5RA_3004.BUN @57296 (0xDFD0): (5076.59, -679.51, 28.19) dist=86.2
+  модели рядом: []
+
+STREAML5RA_3004.BUN @72192 (0x11A00): (5026.01, -675.46, 27.07) dist=44.0
+  модели рядом: ['XOu_CratesA', 'eLabScenery_L5_Library_Lights_PART1', 'XOU_STREETLIGHTH_1B_00_DEINST1_D4']
+
+STREAML5RA_3004.BUN @72208 (0x11A10): (5081.85, -661.63, 37.46) dist=84.7
+  модели рядом: ['XOu_CratesA', 'eLabScenery_L5_Library_Lights_PART1', 'XOU_STREETLIGHTH_1B_00_DEINST1_D4']
+
+STREAML5RA_3004.BUN @72496 (0x11B30): (5026.97, -674.38, 27.35) dist=43.7
+  модели рядом: ['eLabScenery_L5_Library_Lights_PART1', 'XOU_STREETLIGHTH_1B_00_DEINST1_D4']
+
+STREAML5RA_3004.BUN @72508 (0x11B3C): (5080.52, -663.52, 37.41) dist=83.9
+  модели рядом: ['L5_Library_Lights_PART1', 'XOU_STREETLIGHTH_1B_00_DEINST1_D4']
+
+STREAML5RA_3004.BUN @72612 (0x11BA4): (5027.21, -674.30, 36.04) dist=43.8
+  модели рядом: ['XOU_STREETLIGHTH_1B_00_DEINST1_D4']
+
+STREAML5RA_3004.BUN @72624 (0x11BB0): (5080.86, -662.85, 37.23) dist=84.0
+  модели рядом: ['XOU_STREETLIGHTH_1B_00_DEINST1_D4']
+
+STREAML5RA_3004.BUN @72728 (0x11C18): (5026.78, -674.52, 27.07) dist=43.7
+  модели рядом: ['XOU_STREETLIGHTH_1B_00_DEINST1_D4']
+
+STREAML5RA_3004.BUN @72740 (0x11C24): (5080.87, -662.85, 37.46) dist=84.0
+  модели рядом: ['XOU_STREETLIGHTH_1B_00_DEINST1_D4']
+
+STREAML5RA_3004.BUN @72844 (0x11C8C): (5026.01, -675.46, 33.46) dist=44.0
+  модели рядом: ['GHTH_1B_00_DEINST1_D4']
+
+
+=== ДЕТАЛЬНЫЙ АНАЛИЗ STREAML5RA_0x06EA54A8.BUN ===
+размер: 191208
+всего троек в радиусе: 2
+  @25312 (0x62E0): (5102.76, -487.59, 0.00) dist=183.8
+     hex: bda64442ac049740bf720341000000000000803f2ebd3bb400000000000000002ebd3b340000803f000000000000000000000000000000000000803f0000000012769f4507ccf3c3000000000000803f0000000000000000000000000000000000000000000000009d2359466ae8163c584f555f43544f564552504153534c5f
+  @35920 (0x8C50): (5102.76, -653.98, 0.00) dist=103.7
+     hex: bda64442ec049740b05de840000000000000803f2ebd3bb400000000000000002ebd3b340000803f000000000000000000000000000000000000803f0000000012769f450a7f23c4000000000000803f0000000000000000000000000000000000000000000000008d934546ef4f4f3b584f555f43544f564552504153534c5f
+Press Enter...
