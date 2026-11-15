@@ -1,0 +1,350 @@
+строк: 234376
+узлов разобрано: 11882
+
+=== УЗЛЫ СО СЛОВОМ unlock ===
+найдено: 92
+  completion_unlock                                       parent=progression                  без позиции
+  reputation_unlock                                       parent=progression                  без позиции
+  vehicle_unlock                                          parent=item                         без позиции
+  race_bin_13/unlocks/upgrade_decals1                     parent=upgrade_decals               без позиции
+  race_bin_12/unlocks/upgrade_decals1                     parent=upgrade_decals               без позиции
+  race_bin_11/unlocks/upgrade_decals1                     parent=upgrade_decals               без позиции
+  race_bin_14/unlocks/upgrade_hood1                       parent=upgrade_hood                 без позиции
+  race_bin_15/unlocks/upgrade_hood1                       parent=upgrade_hood                 без позиции
+  race_bin_09/unlocks/upgrade_hood1                       parent=upgrade_hood                 без позиции
+  race_bin_08/unlocks/upgrade_hood1                       parent=upgrade_hood                 без позиции
+  race_bin_12/unlocks/upgrade_hood1                       parent=upgrade_hood                 без позиции
+  race_bin_10/unlocks/upgrade_hood1                       parent=upgrade_hood                 без позиции
+  race_bin_08/unlocks/upgrade_hud1                        parent=upgrade_hud                  без позиции
+  race_bin_13/unlocks/upgrade_hud1                        parent=upgrade_hud                  без позиции
+  race_bin_10/unlocks/upgrade_hud1                        parent=upgrade_hud                  без позиции
+  race_bin_06/unlocks/upgrade_hud1                        parent=upgrade_hud                  без позиции
+  race_bin_15/unlocks/upgrade_bodykit1                    parent=upgrade_bodykit              без позиции
+  race_bin_08/unlocks/upgrade_bodykit1                    parent=upgrade_bodykit              без позиции
+  race_bin_12/unlocks/upgrade_bodykit1                    parent=upgrade_bodykit              без позиции
+  race_bin_05/unlocks/upgrade_bodykit1                    parent=upgrade_bodykit              без позиции
+  race_bin_13/unlocks/upgrade_tint1                       parent=upgrade_tint                 без позиции
+  race_bin_15/unlocks/upgrade_tint1                       parent=upgrade_tint                 без позиции
+  race_bin_08/unlocks/upgrade_tint1                       parent=upgrade_tint                 без позиции
+  race_bin_11/unlocks/upgrade_tint1                       parent=upgrade_tint                 без позиции
+  race_bin_15/unlocks/upgrade_spoiler1                    parent=upgrade_spoiler              без позиции
+  race_bin_08/unlocks/upgrade_spoiler1                    parent=upgrade_spoiler              без позиции
+  race_bin_12/unlocks/upgrade_spoiler1                    parent=upgrade_spoiler              без позиции
+  race_bin_10/unlocks/upgrade_spoiler1                    parent=upgrade_spoiler              без позиции
+  race_bin_07/unlocks/upgrade_spoiler1                    parent=upgrade_spoiler              без позиции
+  race_bin_14/unlocks/upgrade_vinyls1                     parent=upgrade_vinyls               без позиции
+  race_bin_13/unlocks/upgrade_vinyls1                     parent=upgrade_vinyls               без позиции
+  race_bin_15/unlocks/upgrade_vinyls1                     parent=upgrade_vinyls               без позиции
+  race_bin_09/unlocks/upgrade_vinyls1                     parent=upgrade_vinyls               без позиции
+  race_bin_07/unlocks/upgrade_vinyls1                     parent=upgrade_vinyls               без позиции
+  race_bin_11/unlocks/upgrade_vinyls1                     parent=upgrade_vinyls               без позиции
+  race_bin_15/unlocks/upgrade_roofscoop1                  parent=upgrade_roofscoop            без позиции
+  race_bin_09/unlocks/upgrade_roofscoop1                  parent=upgrade_roofscoop            без позиции
+  race_bin_13/unlocks/upgrade_roofscoop1                  parent=upgrade_roofscoop            без позиции
+  race_bin_11/unlocks/upgrade_roofscoop1                  parent=upgrade_roofscoop            без позиции
+  race_bin_07/unlocks/upgrade_roofscoop1                  parent=upgrade_roofscoop            без позиции
+
+=== ТРИГГЕРЫ В РАДИУСЕ 200 ОТ ВОРОТ ===
+  eastlow  events/team_escape_002/script_roadblock_trigger3   (6421.9, -486.6, 111.1)
+  west     events/team_escape_mansion/script_roadblock_trigge (4886.4, -521.1, 34.3)
+  eastlow  events/team_escape_underground/script_roadblock_tr (6578.2, -412.8, 106.9)
+  eastlow  events/team_escape_002/script_roadblock_trigger2   (6615.8, -413.7, 112.7)
+  north    events/team_escape_006/script_roadblock_trigger31  (5574.4, 424.2, 52.1)
+  eastlow  events/team_escape_underground/script_roadblock_tr (6608.3, -656.9, 99.5)
+  eastlow  events/team_escape_underground/script_rhino_trigge (6598.0, -558.9, 98.9)
+  eastlow  events/team_escape_underground/script_rhino_trigge (6603.0, -636.4, 96.8)
+  eastup   events/team_escape_underground/script_rhino_trigge (6513.1, -327.3, 105.7)
+  west     events/team_escape_mansion/script_rhino_trigger10  (4892.2, -569.7, 34.3)
+  eastlow  events/team_escape_underground/script_rhino_trigge (6595.3, -510.2, 103.3)
+  eastlow  events/team_escape_002/script_rhino_trigger3       (6476.3, -407.0, 102.7)
+  north    tracks/drag/drag_08/script_traffic_trigger         (5529.8, 433.0, 49.3)
+  north    events/drag/drag_08/engagetrigger                  (5539.8, 431.2, 60.5)
+триггеров у ворот: 14
+
+=== РОДИТЕЛИ-ТРИГГЕРЫ (топ) ===
+  resetplayertrigger                       259
+  script_rhino_trigger                     217
+  script_roadblock_trigger                 181
+  engagetrigger                            73
+  script_traffic_trigger                   26
+  radiustrigger                            10
+  boxtrigger                               8
+  planetrigger                             4
+  trigger                                  3
+  drift_trigger                            3
+  script_trigger                           3
+  tutorial_trigger                         3
+  zonetrigger                              3
+  spawntrigger                             2
+  crew_event_trigger                       1
+
+=== СЫРОЙ КОНТЕКСТ КЛЮЧЕВЫХ СЛОВ ===
+
+-- areaunlocktrigger : 3 строк --
+   116691:     Width: 98.530998229980469
+   116692: - ParentName: planetrigger
+   116693:   Name: areaunlocktrigger
+   116694:   Data:
+   116695:     CollectionName: areaunlocktrigger
+   116696:     Template: true
+   116697:     Name: areaunlocktrigger
+   116698: - ParentName: planetrigger
+   116699:   Name: drift_trigger
+   116700:   Data:
+   116701:     CollectionName: drift_trigger
+   116702:     Template: true
+   116703:     Name: drift_trigger
+   116704: - ParentName: drift_trigger
+   116705:   Name: drift_section_exit_trigger
+   116706:   Data:
+   116693:   Name: areaunlocktrigger
+   116694:   Data:
+   116695:     CollectionName: areaunlocktrigger
+   116696:     Template: true
+   116697:     Name: areaunlocktrigger
+   116698: - ParentName: planetrigger
+   116699:   Name: drift_trigger
+   116700:   Data:
+   116701:     CollectionName: drift_trigger
+   116702:     Template: true
+   116703:     Name: drift_trigger
+   116704: - ParentName: drift_trigger
+   116705:   Name: drift_section_exit_trigger
+   116706:   Data:
+   116707:     CollectionName: drift_section_exit_trigger
+   116708:     Template: true
+   116695:     CollectionName: areaunlocktrigger
+   116696:     Template: true
+   116697:     Name: areaunlocktrigger
+   116698: - ParentName: planetrigger
+   116699:   Name: drift_trigger
+   116700:   Data:
+   116701:     CollectionName: drift_trigger
+   116702:     Template: true
+   116703:     Name: drift_trigger
+   116704: - ParentName: drift_trigger
+   116705:   Name: drift_section_exit_trigger
+   116706:   Data:
+   116707:     CollectionName: drift_section_exit_trigger
+   116708:     Template: true
+   116709:     Name: drift_section_exit_trigger
+   116710:     Rotation: 0
+
+-- completion_unlock : 3 строк --
+     1684:     Name: race_bin_1to5
+     1685: - ParentName: progression
+     1686:   Name: completion_unlock
+     1687:   Data:
+     1688:     CollectionName: completion_unlock
+     1689:     Template: true
+     1690:     Name: completion_unlock
+     1691: - ParentName: progression
+     1692:   Name: reputation_unlock
+     1693:   Data:
+     1694:     CollectionName: reputation_unlock
+     1695:     Template: true
+     1696:     Name: reputation_unlock
+     1697: - ParentName: activity
+     1698:   Name: race
+     1699:   Data:
+     1686:   Name: completion_unlock
+     1687:   Data:
+     1688:     CollectionName: completion_unlock
+     1689:     Template: true
+     1690:     Name: completion_unlock
+     1691: - ParentName: progression
+     1692:   Name: reputation_unlock
+     1693:   Data:
+     1694:     CollectionName: reputation_unlock
+     1695:     Template: true
+     1696:     Name: reputation_unlock
+     1697: - ParentName: activity
+     1698:   Name: race
+     1699:   Data:
+     1700:     CollectionName: race
+     1701:     Template: true
+     1688:     CollectionName: completion_unlock
+     1689:     Template: true
+     1690:     Name: completion_unlock
+     1691: - ParentName: progression
+     1692:   Name: reputation_unlock
+     1693:   Data:
+     1694:     CollectionName: reputation_unlock
+     1695:     Template: true
+     1696:     Name: reputation_unlock
+     1697: - ParentName: activity
+     1698:   Name: race
+     1699:   Data:
+     1700:     CollectionName: race
+     1701:     Template: true
+     1702:     AIShortcutPct: 50
+     1703:     AIShortcutPositionBias: 5
+
+-- vehicle_unlock : 3 строк --
+    75860:     Name: item
+    75861: - ParentName: item
+    75862:   Name: vehicle_unlock
+    75863:   Data:
+    75864:     CollectionName: vehicle_unlock
+    75865:     Template: true
+    75866:     Name: vehicle_unlock
+    75867: - ParentName: item
+    75868:   Name: reward_marker
+    75869:   Data:
+    75870:     CollectionName: reward_marker
+    75871:     Template: true
+    75872:     Name: reward_marker
+    75873: - ParentName: reward_marker
+    75874:   Name: reward_release_car_from_impound
+    75875:   Data:
+    75862:   Name: vehicle_unlock
+    75863:   Data:
+    75864:     CollectionName: vehicle_unlock
+    75865:     Template: true
+    75866:     Name: vehicle_unlock
+    75867: - ParentName: item
+    75868:   Name: reward_marker
+    75869:   Data:
+    75870:     CollectionName: reward_marker
+    75871:     Template: true
+    75872:     Name: reward_marker
+    75873: - ParentName: reward_marker
+    75874:   Name: reward_release_car_from_impound
+    75875:   Data:
+    75876:     CollectionName: reward_release_car_from_impound
+    75877:     Template: true
+    75864:     CollectionName: vehicle_unlock
+    75865:     Template: true
+    75866:     Name: vehicle_unlock
+    75867: - ParentName: item
+    75868:   Name: reward_marker
+    75869:   Data:
+    75870:     CollectionName: reward_marker
+    75871:     Template: true
+    75872:     Name: reward_marker
+    75873: - ParentName: reward_marker
+    75874:   Name: reward_release_car_from_impound
+    75875:   Data:
+    75876:     CollectionName: reward_release_car_from_impound
+    75877:     Template: true
+    75878:     Name: reward_release_car_from_impound
+    75879: - ParentName: reward_release_car_from_impound
+
+-- reputation_unlock : 3 строк --
+     1690:     Name: completion_unlock
+     1691: - ParentName: progression
+     1692:   Name: reputation_unlock
+     1693:   Data:
+     1694:     CollectionName: reputation_unlock
+     1695:     Template: true
+     1696:     Name: reputation_unlock
+     1697: - ParentName: activity
+     1698:   Name: race
+     1699:   Data:
+     1700:     CollectionName: race
+     1701:     Template: true
+     1702:     AIShortcutPct: 50
+     1703:     AIShortcutPositionBias: 5
+     1704:     CarClass:
+     1705:       ClassKey: gameplay
+     1692:   Name: reputation_unlock
+     1693:   Data:
+     1694:     CollectionName: reputation_unlock
+     1695:     Template: true
+     1696:     Name: reputation_unlock
+     1697: - ParentName: activity
+     1698:   Name: race
+     1699:   Data:
+     1700:     CollectionName: race
+     1701:     Template: true
+     1702:     AIShortcutPct: 50
+     1703:     AIShortcutPositionBias: 5
+     1704:     CarClass:
+     1705:       ClassKey: gameplay
+     1706:       CollectionKey: server/car_classes/carclass_all
+     1707:     Description: ''
+     1694:     CollectionName: reputation_unlock
+     1695:     Template: true
+     1696:     Name: reputation_unlock
+     1697: - ParentName: activity
+     1698:   Name: race
+     1699:   Data:
+     1700:     CollectionName: race
+     1701:     Template: true
+     1702:     AIShortcutPct: 50
+     1703:     AIShortcutPositionBias: 5
+     1704:     CarClass:
+     1705:       ClassKey: gameplay
+     1706:       CollectionKey: server/car_classes/carclass_all
+     1707:     Description: ''
+     1708:     DifficultyLevel: 100
+     1709:     EngageTriggerHeight: 80
+
+-- locked_region : 0 строк --
+
+-- barrier : 354 строк --
+      827:     CollectionName: race_bin_16
+      828:     Template: false
+      829:     Barriers:
+      830:       Capacity: 5
+      831:       Data:
+      832:       - Value: 15000
+      833:       - Value: 14000
+      834:       - Value: 11000
+      835:       - Value: 13000
+      836:       - Value: 12000
+      837:     Children:
+      838:       Capacity: 1
+      839:       Data:
+      840:       - ClassKey: gameplay
+      841:         CollectionKey: race_bin_16/drive_to_safe_house
+      842:     Name: race_bin_16
+      895:     CollectionName: race_bin_12
+      896:     Template: false
+      897:     Barriers:
+      898:       Capacity: 3
+      899:       Data:
+      900:       - Value: 12000
+      901:       - Value: 13000
+      902:       - Value: 10000
+      903:     Children:
+      904:       Capacity: 16
+      905:       Data:
+      906:       - ClassKey: gameplay
+      907:         CollectionKey: race_bin_12/isabel_diaz
+      908:       - ClassKey: gameplay
+      909:         CollectionKey: race_bin_12/12_7_3_drag
+      910:       - ClassKey: gameplay
+      942:     CollectionName: race_bin_11
+      943:     Template: false
+      944:     Barriers:
+      945:       Capacity: 3
+      946:       Data:
+      947:       - Value: 10000
+      948:       - Value: 13000
+      949:       - Value: 12000
+      950:     Children:
+      951:       Capacity: 17
+      952:       Data:
+      953:       - ClassKey: gameplay
+      954:         CollectionKey: race_bin_11/lou_park
+      955:       - ClassKey: gameplay
+      956:         CollectionKey: race_bin_11/11_1_2_circuit
+      957:       - ClassKey: gameplay
+      991:     CollectionName: race_bin_13
+      992:     Template: false
+      993:     Barriers:
+      994:       Capacity: 5
+      995:       Data:
+      996:       - Value: 12000
+      997:       - Value: 12000
+      998:       - Value: 12000
+      999:       - Value: 12000
+     1000:       - Value: 12000
+     1001:     Children:
+     1002:       Capacity: 15
+     1003:       Data:
+     1004:       - ClassKey: gameplay
+     1005:         CollectionKey: race_bin_13/victor_vasquez
+     1006:       - ClassKey: gameplay
+Press Enter...
