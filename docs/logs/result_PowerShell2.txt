@@ -1,0 +1,160 @@
+PS C:\Windows\system32> Get-ChildItem "C:\Users\Иосиф\Downloads" -Recurse -Filter hashes.txt | Select-Object FullName, Length
+
+FullName
+--------
+C:\Users\Иосиф\Downloads\hashes.txt
+C:\Users\Иосиф\Downloads\release_windows\release_windows\plugins\Attribulator.Plugins.SpeedProfiles\Resources\hashes...
+C:\Users\Иосиф\Downloads\Tracks_big_and small_files\gc_dump\hashes.txt
+
+
+PS C:\Windows\system32> Select-String -Path "C:\Users\Иосиф\Downloads\hashes.txt" -Pattern 'unlock|closed|access|locked|restrict|forbidden|blocked|trigger|gate|territory|casino' | Select-Object -First 80 Line                                
+Line
+----
+TriggerDistance
+FRONTENDACTION_RTRIGGER
+FRONTENDACTION_LTRIGGER
+triggerThreshold
+EngageTriggerHeight
+EngageTriggerRadius
+FEIconLocked
+EngageTrigger
+EngageTriggerPosition
+nis_trigger_arrest
+nis_trigger_pip
+nis_trigger_pip_ucap
+nis_trigger_race_end
+nis_trigger_race_start
+nis_trigger_ucap
+pip_event_trigger
+Restrictions
+NumCopsToTriggerBackup
+no_trigger
+CloseDriftSpeedPct
+CloseDriftAnglePct
+NotCloseDriftSpeedPct
+NotCloseDriftAnglePct
+heattrigger
+uves_pulse_trigger
+HeroMusicTrackNicInputTrigger
+MusicPlayerNicInputTrigger
+m09_incasino03
+gate
+interstate_closed
+enclosed_small
+enclosed_large
+angie_casinoai
+small_gate
+casinobreak
+mansion_gate
+obj_metal_gate
+mtl_gate_hit_car
+mtl_gate_fx_sc_mtl
+mtl_gate_hit_world
+mtl_gate_fxdust
+casino
+ztest_trigger_fast
+surface_effect_trigger
+chinesegate
+casinosign
+casinosign_strut
+cranetrigger
+gettygate
+gettygate_frag
+gettygatepost
+gettygatepost_frag
+chinesegatetop
+chinesegatepost
+chinesegatepost_frag
+woodgate
+metal_gate
+locked_region_barrier_impact
+menu_gate
+menu_gate_carlot
+menu_gate_safehouse
+race_bin_tierrestricted
+race_bin_casino
+completion_unlock
+reputation_unlock
+race_bin_casino/5_8_1
+race_bin_casino/5_2_2
+race_bin_casino/5_3_3
+race_bin_casino/5_4_1
+race_bin_casino/5_6_2
+race_bin_casino/5_3_2
+race_bin_casino/5_4_3
+race_bin_casino/5_5_1
+race_bin_tierrestricted/tier_1_2
+race_bin_tierrestricted/tier_3_1
+race_bin_casino/5_1_3
+race_bin_casino/5_1_2
+race_bin_casino/5_6_3
+race_bin_casino/5_7_2
+race_bin_casino/5_duel
+
+
+PS C:\Windows\system32> $D = "C:\Users\Иосиф\Downloads\Tracks_big_and small_files\gc_dump"
+PS C:\Windows\system32> Select-String -Path "$D\info.yml" -Pattern 'area_casino' -Context 2,45 | Select-Object -First 4
+PS C:\Windows\system32> Get-ChildItem $D -Recurse -Filter *.yml | Select-String -Pattern 'unlock|closed|access|locked|restrict|forbidden|blocked|career_zone|map_area|areaunlock' -Context 1,4 | Select-Object -First 60 | ForEach-Object { "$($_.Filename):$($_.LineNumber): $($_.Line)" }
+info.yml:7624:   - Name: FEIconLocked
+info.yml:10008:   - Name: Restrictions
+info.yml:10009:     TypeName: PowerUps::Restriction
+info.yml:12756:   - Name: CloseDriftSpeedPct
+info.yml:12860:   - Name: CloseDriftAnglePct
+info.yml:12884:   - Name: NotCloseDriftSpeedPct
+info.yml:13108:   - Name: NotCloseDriftAnglePct
+info.yml:16869: - Name: PhysicsTuningSliderUnlock
+info.yml:16877: - Name: PowerUps::Restriction
+gameplay.yml:39:         CollectionKey: rewards/multiplayer_classrestricted
+gameplay.yml:41:         CollectionKey: rewards/privatematch_classrestricted
+gameplay.yml:43:         CollectionKey: rewards/singleplayer_classrestricted
+gameplay.yml:40:         CollectionKey: rewards/multiplayer_classrestricted
+gameplay.yml:42:         CollectionKey: rewards/privatematch_classrestricted
+gameplay.yml:44:         CollectionKey: rewards/singleplayer_classrestricted
+gameplay.yml:38:         CollectionKey: rewards/multiplayer_classrestricted
+gameplay.yml:40:         CollectionKey: rewards/privatematch_classrestricted
+gameplay.yml:42:         CollectionKey: rewards/singleplayer_classrestricted
+gameplay.yml:38:         CollectionKey: rewards/multiplayer_classrestricted
+gameplay.yml:40:         CollectionKey: rewards/privatematch_classrestricted
+gameplay.yml:42:         CollectionKey: rewards/singleplayer_classrestricted
+gameplay.yml:37:         CollectionKey: rewards/multiplayer_classrestricted
+gameplay.yml:39:         CollectionKey: rewards/privatematch_classrestricted
+gameplay.yml:41:         CollectionKey: rewards/singleplayer_classrestricted
+gameplay.yml:38:         CollectionKey: rewards/multiplayer_classrestricted
+gameplay.yml:40:         CollectionKey: rewards/privatematch_classrestricted
+gameplay.yml:42:         CollectionKey: rewards/singleplayer_classrestricted
+gameplay.yml:37:         CollectionKey: rewards/multiplayer_classrestricted
+gameplay.yml:39:         CollectionKey: rewards/privatematch_classrestricted
+gameplay.yml:41:         CollectionKey: rewards/singleplayer_classrestricted
+gameplay.yml:38:         CollectionKey: rewards/multiplayer_classrestricted
+gameplay.yml:40:         CollectionKey: rewards/privatematch_classrestricted
+gameplay.yml:42:         CollectionKey: rewards/singleplayer_classrestricted
+gameplay.yml:37:         CollectionKey: rewards/multiplayer_classrestricted
+gameplay.yml:39:         CollectionKey: rewards/privatematch_classrestricted
+gameplay.yml:41:         CollectionKey: rewards/singleplayer_classrestricted
+gameplay.yml:37:         CollectionKey: rewards/multiplayer_classrestricted
+gameplay.yml:39:         CollectionKey: rewards/privatematch_classrestricted
+gameplay.yml:41:         CollectionKey: rewards/singleplayer_classrestricted
+gameplay.yml:37:         CollectionKey: rewards/multiplayer_classrestricted
+gameplay.yml:39:         CollectionKey: rewards/privatematch_classrestricted
+gameplay.yml:41:         CollectionKey: rewards/singleplayer_classrestricted
+gameplay.yml:37:         CollectionKey: rewards/multiplayer_classrestricted
+gameplay.yml:39:         CollectionKey: rewards/privatematch_classrestricted
+gameplay.yml:41:         CollectionKey: rewards/singleplayer_classrestricted
+gameplay.yml:45:         CollectionKey: rewards/multiplayer_classrestricted
+gameplay.yml:47:         CollectionKey: rewards/privatematch_classrestricted
+gameplay.yml:49:         CollectionKey: rewards/singleplayer_classrestricted
+gameplay.yml:38:         CollectionKey: rewards/multiplayer_classrestricted
+gameplay.yml:40:         CollectionKey: rewards/privatematch_classrestricted
+gameplay.yml:42:         CollectionKey: rewards/singleplayer_classrestricted
+gameplay.yml:37:         CollectionKey: rewards/multiplayer_classrestricted
+gameplay.yml:39:         CollectionKey: rewards/privatematch_classrestricted
+gameplay.yml:41:         CollectionKey: rewards/singleplayer_classrestricted
+gameplay.yml:38:         CollectionKey: rewards/multiplayer_classrestricted
+gameplay.yml:40:         CollectionKey: rewards/privatematch_classrestricted
+gameplay.yml:42:         CollectionKey: rewards/singleplayer_classrestricted
+gameplay.yml:40:         CollectionKey: rewards/multiplayer_classrestricted
+gameplay.yml:42:         CollectionKey: rewards/privatematch_classrestricted
+gameplay.yml:44:         CollectionKey: rewards/singleplayer_classrestricted
+PS C:\Windows\system32>
+
+Следующий файл будет result_PowerShell3.txt с четырьмя новыми командами, так что ожидай.

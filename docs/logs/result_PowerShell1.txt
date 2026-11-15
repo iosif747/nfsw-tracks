@@ -1,0 +1,787 @@
+Да, я решил, что если мои сообщения иногда отправляются без файлов, хотя я из прикрепляю, то тогда лучше эти самые сообщения записывать в сам файл, чтобы ты увидел.
+Внизу 5 команд (из твоего сообщения "Пока читаем вики, снимем дешифрованные блоки"). Вот они:
+$G = "C:\Users\Иосиф\Downloads\Tracks_big_and small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml"
+Select-String -Path $G -Pattern 'AreaName: casino' -Context 2,25
+Select-String -Path $G -Pattern 'AreaName: (muscle|rockport|exotic|tuner)' -Context 2,15
+Select-String -Path $G -Pattern 'CollectionName: tracks/track144$' -Context 1,35
+Select-String -Path $G -Pattern '^\s*([A-Za-z][A-Za-z0-9_]*):' -AllMatches | ForEach-Object { $_.Matches } | ForEach-Object { $_.Groups[1].Value } | Group-Object | Sort-Object Count -Descending | Select-Object -First 50 Count,Name
+Select-String -Path $G -Pattern '4549' -Context 4,12 | Select-Object -First 8.
+
+PS C:\Windows\system32> $G = "C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml"
+PS C:\Windows\system32> Select-String -Path $G -Pattern 'AreaName: casino' -Context 2,25
+
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79325:    CollectionN
+ame: area_casino
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79326:    Template: f
+alse
+> C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79327:    AreaName: c
+asino
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79328:    Barriers:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79329:      Capacity:
+ 6
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79330:      Data:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79331:      - Value:
+4549
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79332:      - Value:
+4550
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79333:      - Value:
+4551
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79334:      - Value:
+4563
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79335:      - Value:
+4564
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79336:      - Value:
+4635
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79337:    Children:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79338:      Capacity:
+ 7
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79339:      Data:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79340:      - ClassKe
+y: gameplay
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79341:        Collect
+ionKey: area_casino/territory_zone1
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79342:      - ClassKe
+y: gameplay
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79343:        Collect
+ionKey: area_casino/territory_zone2
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79344:      - ClassKe
+y: gameplay
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79345:        Collect
+ionKey: area_casino/territory_zone3
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79346:      - ClassKe
+y: gameplay
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79347:        Collect
+ionKey: area_casino/territory_zone4
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79348:      - ClassKe
+y: gameplay
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79349:        Collect
+ionKey: area_casino/territory_zone5
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79350:      - ClassKe
+y: gameplay
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79351:        Collect
+ionKey: area_casino/territory_zone6
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79352:      - ClassKe
+y: gameplay
+
+
+PS C:\Windows\system32> Select-String -Path $G -Pattern 'AreaName: (muscle|rockport|exotic|tuner)' -Context 2,15
+
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:77758:    CollectionN
+ame: area_rockport
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:77759:    Template: f
+alse
+> C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:77760:    AreaName: r
+ockport
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:77761:    Barriers:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:77762:      Capacity:
+ 5
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:77763:      Data:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:77764:      - Value:
+4622
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:77765:      - Value:
+4625
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:77766:      - Value:
+4627
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:77767:      - Value:
+4629
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:77768:      - Value:
+4631
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:77769:    Children:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:77770:      Capacity:
+ 5
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:77771:      Data:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:77772:      - ClassKe
+y: gameplay
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:77773:        Collect
+ionKey: area_rockport/territory_zone1
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:77774:      - ClassKe
+y: gameplay
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:77775:        Collect
+ionKey: area_rockport/territory_zone2
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78079:    CollectionN
+ame: area_exotic
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78080:    Template: f
+alse
+> C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78081:    AreaName: e
+xotic
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78082:    Barriers:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78083:      Capacity:
+ 4
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78084:      Data:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78085:      - Value:
+4575
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78086:      - Value:
+4573
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78087:      - Value:
+4574
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78088:      - Value:
+4637
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78089:    Children:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78090:      Capacity:
+ 10
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78091:      Data:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78092:      - ClassKe
+y: gameplay
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78093:        Collect
+ionKey: area_exotic/territory_zone1
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78094:      - ClassKe
+y: gameplay
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78095:        Collect
+ionKey: area_exotic/territory_zone2
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78096:      - ClassKe
+y: gameplay
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78394:    CollectionN
+ame: area_muscle
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78395:    Template: f
+alse
+> C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78396:    AreaName: m
+uscle
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78397:    Barriers:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78398:      Capacity:
+ 6
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78399:      Data:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78400:      - Value:
+4576
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78401:      - Value:
+4580
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78402:      - Value:
+4579
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78403:      - Value:
+4577
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78404:      - Value:
+4578
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78405:      - Value:
+4633
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78406:    Children:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78407:      Capacity:
+ 10
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78408:      Data:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78409:      - ClassKe
+y: gameplay
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78410:        Collect
+ionKey: area_muscle/territory_zone1
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78411:      - ClassKe
+y: gameplay
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78713:    CollectionN
+ame: area_tuner
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78714:    Template: f
+alse
+> C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78715:    AreaName: t
+uner
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78716:    Barriers:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78717:      Capacity:
+ 8
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78718:      Data:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78719:      - Value:
+4565
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78720:      - Value:
+4566
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78721:      - Value:
+4567
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78722:      - Value:
+4569
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78723:      - Value:
+4570
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78724:      - Value:
+4571
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78725:      - Value:
+4572
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78726:      - Value:
+4578
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78727:    Children:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78728:      Capacity:
+ 11
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78729:      Data:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:78730:      - ClassKe
+y: gameplay
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177092:    Collection
+Name: menu_gate_carlot/carlot_muscle
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177093:    Template:
+false
+> C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177094:    AreaName:
+muscle
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177095:    Children:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177096:      Capacity
+: 1
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177097:      Data:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177098:      - ClassK
+ey: gameplay
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177099:        Collec
+tionKey: menu_gate_carlot/carlot_muscle/respawn
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177100:    Name: menu
+_gate_carlot/carlot_muscle
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177101:    Position:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177102:      X: 4207.
+23681640625
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177103:      Y: -348.
+19659423828125
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177104:      Z: 35.47
+705078125
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177105:    Radius: 5
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177106:- ParentName:
+zone_carlot
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177107:  Name: menu_g
+ate_carlot/carlot_exotic
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177108:  Data:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177109:    Collection
+Name: menu_gate_carlot/carlot_exotic
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177110:    Template:
+false
+> C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177111:    AreaName:
+exotic
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177112:    Children:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177113:      Capacity
+: 1
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177114:      Data:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177115:      - ClassK
+ey: gameplay
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177116:        Collec
+tionKey: menu_gate_carlot/carlot_exotic/respawn
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177117:    Name: menu
+_gate_carlot/carlot_exotic
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177118:    Position:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177119:      X: 1190.
+197998046875
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177120:      Y: 254.4
+5509338378906
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177121:      Z: 39.61
+669921875
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177122:    Radius: 5
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177123:- ParentName:
+zone_carlot
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177124:  Name: menu_g
+ate_carlot/carlot_tuner01
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177125:  Data:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177126:    Collection
+Name: menu_gate_carlot/carlot_tuner01
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177127:    Template:
+false
+> C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177128:    AreaName:
+tuner01
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177129:    Children:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177130:      Capacity
+: 1
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177131:      Data:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177132:      - ClassK
+ey: gameplay
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177133:        Collec
+tionKey: menu_gate_carlot/carlot_tuner01/respawn
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177134:    Name: menu
+_gate_carlot/carlot_tuner01
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177135:    Position:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177136:      X: 4980.
+8740234375
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177137:      Y: 1391.
+0240478515625
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177138:      Z: 64.46
+09375
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177139:    Radius: 5
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177140:- ParentName:
+zone_carlot
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177141:  Name: menu_g
+ate_carlot/carlot_tuner02
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177142:  Data:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177143:    Collection
+Name: menu_gate_carlot/carlot_tuner02
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177144:    Template:
+false
+> C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177145:    AreaName:
+tuner02
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177146:    Children:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177147:      Capacity
+: 1
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177148:      Data:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177149:      - ClassK
+ey: gameplay
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177150:        Collec
+tionKey: menu_gate_carlot/carlot_tuner02/respawn
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177151:    Name: menu
+_gate_carlot/carlot_tuner02
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177152:    Position:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177153:      X: 5534.
+10205078125
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177154:      Y: 659.7
+21923828125
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177155:      Z: 56.01
+7578125
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177156:    Radius: 5
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177157:- ParentName:
+zonetrigger
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177158:  Name: zone_s
+afehouse
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177159:  Data:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177160:    Collection
+Name: zone_safehouse
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177166:    Collection
+Name: menu_gate_safehouse/safehouse_tuner
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177167:    Template:
+false
+> C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177168:    AreaName:
+tuner
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177169:    Children:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177170:      Capacity
+: 1
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177171:      Data:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177172:      - ClassK
+ey: gameplay
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177173:        Collec
+tionKey: menu_gate_safehouse/safehouse_tuner/respawn
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177174:    Name: menu
+_gate_safehouse/safehouse_tuner
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177175:    Position:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177176:      X: 4027.
+7900390625
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177177:      Y: 1182.
+5679931640625
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177178:      Z: 47.70
+3128814697266
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177179:    Radius: 5
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177180:- ParentName:
+zone_safehouse
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177181:  Name: menu_g
+ate_safehouse/safehouse_highway
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177182:  Data:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177183:    Collection
+Name: menu_gate_safehouse/safehouse_highway
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177200:    Collection
+Name: menu_gate_safehouse/safehouse_exotic
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177201:    Template:
+false
+> C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177202:    AreaName:
+exotic
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177203:    Children:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177204:      Capacity
+: 1
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177205:      Data:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177206:      - ClassK
+ey: gameplay
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177207:        Collec
+tionKey: menu_gate_safehouse/safehouse_exotic/respawn
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177208:    Name: menu
+_gate_safehouse/safehouse_exotic
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177209:    Position:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177210:      X: 2524.
+409912109375
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177211:      Y: 928.8
+001708984375
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177212:      Z: 26.53
+0759811401367
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177213:    Radius: 5
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177214:- ParentName:
+zone_safehouse
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177215:  Name: menu_g
+ate_safehouse/safehouse_muscle
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177216:  Data:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177217:    Collection
+Name: menu_gate_safehouse/safehouse_muscle
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177218:    Template:
+false
+> C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177219:    AreaName:
+muscle
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177220:    Children:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177221:      Capacity
+: 1
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177222:      Data:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177223:      - ClassK
+ey: gameplay
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177224:        Collec
+tionKey: menu_gate_safehouse/safehouse_muscle/respawn
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177225:    Name: menu
+_gate_safehouse/safehouse_muscle
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177226:    Position:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177227:      X: 2777.
+488037109375
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177228:      Y: -640.
+21600341796875
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177229:      Z: 15.62
+4019622802734
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177230:    Radius: 5
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177231:- ParentName:
+radiustrigger
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177232:  Name: crew_d
+efector_trigger
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177233:  Data:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:177234:    Collection
+Name: crew_defector_trigger
+
+
+PS C:\Windows\system32> Select-String -Path $G -Pattern 'CollectionName: tracks/track144$' -Context 1,35
+
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202679:  Data:
+> C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202680:    Collection
+Name: tracks/track144
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202681:    Template:
+false
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202682:    Barriers:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202683:      Capacity
+: 31
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202684:      Data:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202685:      - Value:
+ 9565
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202686:      - Value:
+ 9380
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202687:      - Value:
+ -9374
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202688:      - Value:
+ 9378
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202689:      - Value:
+ -9368
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202690:      - Value:
+ 9367
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202691:      - Value:
+ -9362
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202692:      - Value:
+ -9404
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202693:      - Value:
+ -9394
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202694:      - Value:
+ 9395
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202695:      - Value:
+ -9409
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202696:      - Value:
+ 9410
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202697:      - Value:
+ -9436
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202698:      - Value:
+ -9447
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202699:      - Value:
+ 9449
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202700:      - Value:
+ 9452
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202701:      - Value:
+ -9423
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202702:      - Value:
+ -9419
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202703:      - Value:
+ 9456
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202704:      - Value:
+ 9564
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202705:      - Value:
+ 9816
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202706:      - Value:
+ 9459
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202707:      - Value:
+ 11018
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202708:      - Value:
+ 11017
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202709:      - Value:
+ 11016
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202710:      - Value:
+ 9817
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202711:      - Value:
+ -11001
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202712:      - Value:
+ -9420
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202713:      - Value:
+ 11030
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202714:      - Value:
+ 9443
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:202715:      - Value:
+ 9382
+
+
+PS C:\Windows\system32> Select-String -Path $G -Pattern '^\s*([A-Za-z][A-Za-z0-9_]*):' -AllMatches | ForEach-Object { $_.Matches } | ForEach-Object { $_.Groups[1].Value } | Group-Object | Sort-Object Count -Descending | Select-Object -First 50 Count,Name
+
+Count Name
+----- ----
+23758 Name
+20520 CollectionKey
+15475 Data
+11882 CollectionName
+11882 Template
+11100 Y
+10701 Z
+10701 X
+ 6982 Position
+ 6341 Rotation
+ 3694 Dimensions
+ 3593 Capacity
+ 2754 ClassKey
+ 1147 ShortcutMaxChance
+  959 Children
+  886 ShortcutMinChance
+  787 SkillModEffectType
+  785 SkillModEffectAmount
+  692 Localization
+  672 SkillModCategory
+  633 SkillModPartQuality
+  616 SkillModEffects
+  405 StartGrid
+  389 FinishLine
+  385 Checkpoints
+  365 TrackMap
+  354 Barriers
+  347 LocalizationTag
+  325 FlareSpacing
+  320 EndDateTime
+  320 StartDateTime
+  319 EventIdList
+  289 RacerName
+  285 mPoint2
+  285 mPoint3
+  269 Shortcuts
+  266 PresetRides
+  257 ResetMarker
+  202 Marker
+  183 Reward_Tokens
+  183 Reward_Rep
+   96 IsEnabled
+   87 Width
+   84 VehicleKey
+   78 Distance
+   77 Vehicles
+   75 EventId
+   74 InitialSpeed
+   73 TrackLayout
+   73 EngageTrigger
+
+
+PS C:\Windows\system32> Select-String -Path $G -Pattern '4549' -Context 4,12 | Select-Object -First 8
+
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79327:    AreaName: c
+asino
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79328:    Barriers:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79329:      Capacity:
+ 6
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79330:      Data:
+> C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79331:      - Value:
+4549
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79332:      - Value:
+4550
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79333:      - Value:
+4551
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79334:      - Value:
+4563
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79335:      - Value:
+4564
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79336:      - Value:
+4635
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79337:    Children:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79338:      Capacity:
+ 7
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79339:      Data:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79340:      - ClassKe
+y: gameplay
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79341:        Collect
+ionKey: area_casino/territory_zone1
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79342:      - ClassKe
+y: gameplay
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:79343:        Collect
+ionKey: area_casino/territory_zone2
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:82650:    Name: track
+s/drag/drag_09/startgrid
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:82651:    Position:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:82652:      X: 3809.1
+38916015625
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:82653:      Y: -209.0
+4020690917969
+> C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:82654:      Z: 29.045
+499801635742
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:82655:    Rotation: 1
+2.15779972076416
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:82656:    StartGridLa
+tSpacing: 7.6999998092651367
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:82657:    StartGridLo
+ngSpacing: 0
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:82658:    StartGridWi
+dth: 2
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:82659:- ParentName: s
+tartgrid
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:82660:  Name: tracks/
+drag/drag_12/startgrid
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:82661:  Data:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:82662:    CollectionN
+ame: tracks/drag/drag_12/startgrid
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:82663:    Template: f
+alse
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:82664:    Name: track
+s/drag/drag_12/startgrid
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:82665:    Position:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:82666:      X: 7234.4
+3408203125
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:94896:    Position:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:94897:      X: 4038.2
+16064453125
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:94898:      Y: 1010.3
+939819335938
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:94899:      Z: 45.462
+398529052734
+> C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:94900:    Rotation: 1
+3.454549789428711
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:94901:    ShortcutMin
+Chance: 1
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:94902:- ParentName: s
+hortcut
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:94903:  Name: tracks/
+track243/shortcut11
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:94904:  Data:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:94905:    CollectionN
+ame: tracks/track243/shortcut11
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:94906:    Template: f
+alse
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:94907:    Name: track
+s/track243/shortcut11
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:94908:    Position:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:94909:      X: 4982.2
+51953125
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:94910:      Y: 981.13
+848876953125
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:94911:      Z: 51.763
+179779052734
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:94912:    Rotation: 4
+2.545448303222656
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:94987:    Position:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:94988:      X: 2133.6
+97021484375
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:94989:      Y: 1275.0
+679931640625
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:94990:      Z: 90.607
+421875
+> C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:94991:    Rotation: -
+17.454549789428711
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:94992:- ParentName: s
+hortcut
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:94993:  Name: tracks/
+track246/shortcut05
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:94994:  Data:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:94995:    CollectionN
+ame: tracks/track246/shortcut05
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:94996:    Template: f
+alse
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:94997:    Name: track
+s/track246/shortcut05
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:94998:    Position:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:94999:      X: 1189.2
+540283203125
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:95000:      Y: 1898.1
+78955078125
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:95001:      Z: 126.93
+260192871094
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:95002:    Rotation: -
+74.18182373046875
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:95003:- ParentName: s
+hortcut
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:96289:    Name: track
+s/track74/shortcut1
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:96290:    Position:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:96291:      X: 5833.6
+66015625
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:96292:      Y: 1570.1
+319580078125
+> C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:96293:      Z: 231.64
+549255371094
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:96294:- ParentName: s
+hortcut
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:96295:  Name: tracks/
+track72/shortcut8
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:96296:  Data:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:96297:    CollectionN
+ame: tracks/track72/shortcut8
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:96298:    Template: f
+alse
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:96299:    Name: track
+s/track72/shortcut8
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:96300:    Position:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:96301:      X: 5910
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:96302:      Y: 1626
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:96303:      Z: 228
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:96304:    ShortcutMax
+Chance: 0.5
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:96305:    ShortcutMin
+Chance: 0.40000000596046448
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99398:    Position:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99399:      X: 9041.0
+8203125
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99400:      Y: 39.853
+580474853516
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99401:      Z: 22.900
+390625
+> C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99402:    Rotation: -
+2.5454549789428711
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99403:    ShortcutMax
+Chance: 0
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99404:- ParentName: s
+hortcut
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99405:  Name: tracks/
+track9/shortcut2
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99406:  Data:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99407:    CollectionN
+ame: tracks/track9/shortcut2
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99408:    Template: f
+alse
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99409:    Name: track
+s/track9/shortcut2
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99410:    Position:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99411:      X: 9420.3
+4765625
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99412:      Y: 2507.5
+2587890625
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99413:      Z: 14.516
+599655151367
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99414:    Rotation: -
+64
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99624:    Template: f
+alse
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99625:    Name: track
+s/track352/shortcut1
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99626:    Position:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99627:      X: 10284.
+1396484375
+> C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99628:      Y: 1115.4
+549560546875
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99629:      Z: 18.096
+530914306641
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99630:    Rotation: 1
+31.60870361328125
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99631:- ParentName: s
+hortcut
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99632:  Name: tracks/
+track352/shortcut
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99633:  Data:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99634:    CollectionN
+ame: tracks/track352/shortcut
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99635:    Template: f
+alse
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99636:    Name: track
+s/track352/shortcut
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99637:    Position:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99638:      X: 10784.
+8701171875
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99639:      Y: 643.20
+458984375
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:99640:      Z: 8.7623
+348236083984
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:101011:    Position:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:101012:      X: 4038.
+216064453125
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:101013:      Y: 1010.
+3939819335938
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:101014:      Z: 45.46
+2398529052734
+> C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:101015:    Rotation:
+13.454549789428711
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:101016:    ShortcutMi
+nChance: 1
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:101017:- ParentName:
+shortcut
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:101018:  Name: tracks
+/track336/shortcut05
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:101019:  Data:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:101020:    Collection
+Name: tracks/track336/shortcut05
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:101021:    Template:
+false
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:101022:    Name: trac
+ks/track336/shortcut05
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:101023:    Position:
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:101024:      X: 5554.
+8779296875
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:101025:      Y: 735.1
+6387939453125
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:101026:      Z: 54.18
+8480377197266
+  C:\Users\иосиф\Downloads\Tracks_big_and_small_files\gc_dump\gameplay\gpcore\gpcore\gameplay.yml:101027:    Rotation:
+82.769233703613281
+
+
+PS C:\Windows\system32>
