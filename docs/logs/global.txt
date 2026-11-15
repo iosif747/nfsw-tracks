@@ -1,0 +1,54 @@
+ Том в устройстве C имеет метку Диск
+ Серийный номер тома: 58E6-8A45
+
+ Содержимое папки C:\Offline\GLOBAL
+
+14.11.2026  14:02    <DIR>          .
+14.11.2026  14:02    <DIR>          ..
+16.08.2021  12:46    <DIR>          LicensePlates
+16.08.2021  12:46    <DIR>          Safehouse
+16.08.2021  12:46    <DIR>          VinylTextures_Large
+16.08.2021  12:46    <DIR>          gc.vaults
+27.06.2015  16:45         3 448 768 attributes.bin
+02.12.2014  16:07           324 784 Avatars.bin
+02.12.2014  16:07           350 912 BannerAds.bin
+02.12.2014  16:07         2 594 976 CarMakeLogos_Large.bin
+02.12.2014  16:07                 0 CarMakeLogos_Small.bin
+02.12.2014  16:07         1 260 496 CarMakeLogos_Square.bin
+02.12.2014  16:07         2 752 576 CarModelLogos_Small.bin
+02.12.2014  16:07         4 729 536 commerce.bin
+02.12.2014  16:07             4 368 DefaultTextures.bin
+02.12.2014  16:07         8 672 192 DYNTEX.BIN
+02.12.2014  16:07             7 296 FE_ATTRIB.bin
+02.12.2014  16:07            15 056 GlobalUITextures.bin
+02.12.2014  16:07           290 048 IconsAchievementBadges.bin
+02.12.2014  16:07           373 248 IconsBrands.bin
+02.12.2014  16:07           113 792 IconsCarClasses.bin
+02.12.2014  16:07            18 112 IconsEventTypes.bin
+02.12.2014  16:07            45 760 IconsEventTypes_Large.bin
+02.12.2014  16:07            58 320 IconsMinimap.bin
+02.12.2014  16:07            12 864 IconsNews.bin
+02.12.2014  16:07         9 952 576 IconsPerformance.bin
+02.12.2014  16:07             7 888 IconsPowerups.bin
+02.12.2014  16:07         1 464 784 IconsProducts.bin
+02.12.2014  16:07           472 064 IconsSkillMods.bin
+02.12.2014  16:07         2 613 968 IconsSkills.bin
+02.12.2014  16:07         9 584 320 IconsVisualParts.bin
+27.06.2015  16:45               492 InfoMemoryFile.bin
+27.06.2015  16:45           107 050 InGameMemoryFile.bin
+02.12.2014  16:07            39 040 LicensePlates.bin
+02.12.2014  16:07         9 372 416 NeonGlows.bin
+02.12.2014  16:07           979 648 RaceRoutes_Small.bin
+02.12.2014  16:07        22 621 696 SkyDomeTextures.bin
+02.12.2014  16:07         3 147 520 StarterPackTextures.bin
+02.12.2014  16:07         2 064 704 Tutorials.bin
+02.12.2014  16:07                 0 UniqueBootTextures.bin
+02.12.2014  16:07           149 248 VinylTextures_Large.bin
+02.12.2014  16:07                 0 DEMO_MARKETING.BUN
+02.12.2014  16:07            63 056 ICE.BUN
+27.06.2015  16:45        14 669 668 GlobalB.lzc
+02.12.2014  16:07           481 884 InGameA.lzc
+02.12.2014  16:07           533 816 InGameB.lzc
+14.11.2026  14:02                 0 files.txt
+              41 файлов    103 398 942 байт
+               6 папок  107 178 057 728 байт свободно
