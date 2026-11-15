@@ -1,0 +1,97 @@
+файлов: 335
+10_7_3_drag.bin              : ['trafficspawntrigger14', 'trafficspawntrigger15', 'trafficspawntrigger16', 'trafficspawntrigger17', 'trafficspawntrigger18', 'trafficspawntrigger19', 'trafficspawntrigger2', 'trafficspawntrigger20', 'trafficspawntrigger22', 'trafficspawntrigger23', 'trafficspawntrigger6', 'trafficspawntrigger7', 'trafficspawntrigger9', 'trigger1', 'trigger2']
+11_7_1_drag.bin              : ['trafficspawntrigger10', 'trafficspawntrigger11', 'trafficspawntrigger12', 'trafficspawntrigger13', 'trafficspawntrigger16', 'trafficspawntrigger17', 'trafficspawntrigger18', 'trafficspawntrigger19', 'trafficspawntrigger20', 'trafficspawntrigger22', 'trafficspawntrigger23', 'trafficspawntrigger3', 'trafficspawntrigger5', 'trafficspawntrigger7', 'trafficspawntrigger8']
+12_7_3_drag.bin              : ['trafficspawntrigger1', 'trafficspawntrigger10', 'trafficspawntrigger12', 'trafficspawntrigger15', 'trafficspawntrigger16', 'trafficspawntrigger18', 'trafficspawntrigger2', 'trafficspawntrigger3', 'trafficspawntrigger4', 'trafficspawntrigger6', 'trafficspawntrigger7', 'trafficspawntrigger9']
+14_2_1_sprint.bin            : ['engagetrigger']
+14_2_4_sprint.bin            : ['cop_trigger']
+1_7_3_drag.bin               : ['trafficspawntrigger1', 'trafficspawntrigger10', 'trafficspawntrigger11', 'trafficspawntrigger12', 'trafficspawntrigger13', 'trafficspawntrigger14', 'trafficspawntrigger16', 'trafficspawntrigger17', 'trafficspawntrigger18', 'trafficspawntrigger19', 'trafficspawntrigger2', 'trafficspawntrigger20', 'trafficspawntrigger21', 'trafficspawntrigger23', 'trafficspawntrigger24']
+2_3_2.bin                    : ['engagetrigger']
+2_3_3.bin                    : ['Stonewall']
+2_5_3.bin                    : ['entry_trigger01', 'entry_trigger02', 'entry_trigger03', 'entry_trigger04', 'entry_trigger05', 'entry_trigger06', 'exit_trigger01', 'exit_trigger02', 'exit_trigger03', 'exit_trigger04', 'exit_trigger05', 'exit_trigger06']
+2_7_1_drag.bin               : ['trafficspawntrigger1', 'trafficspawntrigger10', 'trafficspawntrigger11', 'trafficspawntrigger12', 'trafficspawntrigger13', 'trafficspawntrigger14', 'trafficspawntrigger15', 'trafficspawntrigger16', 'trafficspawntrigger17', 'trafficspawntrigger18', 'trafficspawntrigger19', 'trafficspawntrigger2', 'trafficspawntrigger20', 'trafficspawntrigger21', 'trafficspawntrigger22']
+3_1_3.bin                    : ['entry_trigger01', 'entry_trigger02', 'entry_trigger03', 'entry_trigger04', 'exit_trigger01', 'exit_trigger02', 'exit_trigger03', 'exit_trigger04']
+3_2_1_sprint.bin             : ['Seagate']
+3_2_2.bin                    : ['end_of_entry_trigger01', 'end_of_entry_trigger02', 'end_of_entry_trigger03', 'end_of_entry_trigger04', 'entry_trigger01', 'entry_trigger02', 'entry_trigger03', 'entry_trigger04', 'exit_trigger01', 'exit_trigger02', 'exit_trigger03', 'exit_trigger04']
+3_3_2.bin                    : ['engagetrigger']
+3_4_3.bin                    : ['end_of_entry_trigger01', 'end_of_entry_trigger02', 'end_of_entry_trigger03', 'entry_trigger01', 'entry_trigger02', 'entry_trigger03', 'exit_trigger01', 'exit_trigger02', 'exit_trigger03']
+3_5_2.bin                    : ['entry_trigger01', 'entry_trigger02', 'entry_trigger03', 'exit_trigger01', 'exit_trigger02', 'exit_trigger03']
+3_5_3.bin                    : ['end_of_entry_trigger01', 'end_of_entry_trigger02', 'end_of_entry_trigger03', 'entry_trigger01', 'entry_trigger02', 'entry_trigger03', 'exit_trigger01', 'exit_trigger02', 'exit_trigger03']
+3_7_3_drag.bin               : ['trafficspawntrigger1', 'trafficspawntrigger10', 'trafficspawntrigger12', 'trafficspawntrigger13', 'trafficspawntrigger14', 'trafficspawntrigger15', 'trafficspawntrigger16', 'trafficspawntrigger18', 'trafficspawntrigger19', 'trafficspawntrigger20', 'trafficspawntrigger24', 'trafficspawntrigger26', 'trafficspawntrigger27', 'trafficspawntrigger28', 'trafficspawntrigger29']
+4_3_2.bin                    : ['entry_trigger01', 'entry_trigger02', 'entry_trigger03', 'exit_trigger01', 'exit_trigger02', 'exit_trigger03']
+4_7_4_drag.bin               : ['trafficspawntrigger11', 'trafficspawntrigger12', 'trafficspawntrigger13', 'trafficspawntrigger14', 'trafficspawntrigger15', 'trafficspawntrigger16', 'trafficspawntrigger18', 'trafficspawntrigger19', 'trafficspawntrigger20', 'trafficspawntrigger22', 'trafficspawntrigger23', 'trafficspawntrigger24', 'trafficspawntrigger25', 'trafficspawntrigger26', 'trafficspawntrigger27']
+5_7_1.bin                    : ['entry_trigger01', 'entry_trigger02', 'entry_trigger03', 'entry_trigger04', 'entry_trigger05', 'entry_trigger06', 'exit_trigger01', 'exit_trigger02', 'exit_trigger03', 'exit_trigger04', 'exit_trigger05', 'exit_trigger06']
+6_10_1.bin                   : ['end_of_entry_trigger01', 'end_of_entry_trigger02', 'end_of_entry_trigger03', 'end_of_entry_trigger04', 'entry_trigger01', 'entry_trigger02', 'entry_trigger03', 'entry_trigger04', 'exit_trigger01', 'exit_trigger02', 'exit_trigger03', 'exit_trigger04']
+6_10_5.bin                   : ['end_of_entry_trigger01', 'end_of_entry_trigger02', 'end_of_entry_trigger03', 'entry_trigger01', 'entry_trigger02', 'entry_trigger03', 'exit_trigger01', 'exit_trigger02', 'exit_trigger03']
+6_10_6.bin                   : ['end_of_entry_trigger01', 'end_of_entry_trigger02', 'end_of_entry_trigger03', 'end_of_entry_trigger04', 'end_of_entry_trigger05', 'entry_trigger01', 'entry_trigger02', 'entry_trigger03', 'entry_trigger04', 'entry_trigger05', 'exit_trigger01', 'exit_trigger02', 'exit_trigger03', 'exit_trigger04', 'exit_trigger05']
+6_14_2.bin                   : ['entry_trigger01', 'entry_trigger02', 'entry_trigger03', 'exit_trigger01', 'exit_trigger02', 'exit_trigger03']
+6_14_3.bin                   : ['entry_trigger01', 'entry_trigger02', 'entry_trigger03', 'entry_trigger04', 'exit_trigger01', 'exit_trigger02', 'exit_trigger03', 'exit_trigger04']
+6_14_4.bin                   : ['entry_trigger01', 'entry_trigger02', 'entry_trigger03', 'entry_trigger04', 'exit_trigger01', 'exit_trigger02', 'exit_trigger03', 'exit_trigger04']
+6_2_1_p2p.bin                : ['engagetrigger']
+6_6_1.bin                    : ['copspawntrigger', 'copspawntrigger2', 'copspawntrigger3']
+6_6_2.bin                    : ['copspawntrigger']
+6_6_3.bin                    : ['copspawntrigger', 'copspawntrigger2', 'copspawntrigger3', 'copspawntrigger4', 'copspawntrigger5', 'copspawntrigger6']
+6_7_1.bin                    : ['copspawntrigger']
+6_7_2.bin                    : ['copspawntrigger']
+6_7_3.bin                    : ['copspawntrigger', 'copspawntrigger2', 'copspawntrigger3', 'copspawntrigger4']
+7_1_1.bin                    : ['entry_trigger01', 'entry_trigger02', 'entry_trigger03', 'entry_trigger04', 'exit_trigger01', 'exit_trigger02', 'exit_trigger03', 'exit_trigger04']
+7_1_2.bin                    : ['entry_trigger01', 'entry_trigger02', 'entry_trigger03', 'exit_trigger01', 'exit_trigger02', 'exit_trigger03']
+7_1_3.bin                    : ['entry_trigger01', 'entry_trigger02', 'entry_trigger03', 'entry_trigger04', 'exit_trigger01', 'exit_trigger02', 'exit_trigger03', 'exit_trigger04']
+7_1_4.bin                    : ['entry_trigger01', 'entry_trigger02', 'entry_trigger03', 'exit_trigger01', 'exit_trigger02', 'exit_trigger03']
+7_1_5.bin                    : ['entry_trigger01', 'entry_trigger02', 'entry_trigger03', 'exit_trigger01', 'exit_trigger02', 'exit_trigger03']
+7_1_6.bin                    : ['entry_trigger01', 'entry_trigger02', 'entry_trigger03', 'exit_trigger01', 'exit_trigger02', 'exit_trigger03']
+7_5_1.bin                    : ['copspawntrigger01', 'copspawntrigger02', 'copspawntrigger03', 'copspawntrigger04', 'copspawntrigger05', 'copspawntrigger06', 'copspawntrigger07', 'copspawntrigger08', 'copspawntrigger09', 'copspawntrigger10', 'copspawntrigger11', 'copspawntrigger12', 'copspawntrigger13', 'copspawntrigger14', 'copspawntrigger15']
+7_5_2.bin                    : ['copspawntrigger01', 'copspawntrigger02']
+7_5_3.bin                    : ['copspawntrigger01', 'copspawntrigger02']
+7_7_1_r_drag.bin             : ['trafficspawntrigger10', 'trafficspawntrigger11', 'trafficspawntrigger12', 'trafficspawntrigger13', 'trafficspawntrigger14', 'trafficspawntrigger16', 'trafficspawntrigger17', 'trafficspawntrigger18', 'trafficspawntrigger2', 'trafficspawntrigger3', 'trafficspawntrigger7', 'trigger1']
+7_7_4_drag.bin               : ['trafficspawntrigger1', 'trafficspawntrigger13', 'trafficspawntrigger14', 'trafficspawntrigger15', 'trafficspawntrigger16', 'trafficspawntrigger17', 'trafficspawntrigger18', 'trafficspawntrigger19', 'trafficspawntrigger2', 'trafficspawntrigger20', 'trafficspawntrigger21', 'trafficspawntrigger22', 'trafficspawntrigger23', 'trafficspawntrigger3', 'trafficspawntrigger4']
+8_1_1.bin                    : ['end_of_entry_trigger01', 'end_of_entry_trigger02', 'entry_trigger01', 'entry_trigger02', 'exit_trigger01', 'exit_trigger02']
+8_1_2.bin                    : ['end_of_entry_trigger01', 'end_of_entry_trigger02', 'end_of_entry_trigger03', 'end_of_entry_trigger04', 'end_of_entry_trigger05', 'entry_trigger01', 'entry_trigger02', 'entry_trigger03', 'entry_trigger04', 'entry_trigger05', 'exit_trigger01', 'exit_trigger02', 'exit_trigger03', 'exit_trigger04', 'exit_trigger05']
+8_1_3.bin                    : ['end_of_entry_trigger01', 'end_of_entry_trigger02', 'end_of_entry_trigger03', 'entry_trigger01', 'entry_trigger02', 'entry_trigger03', 'exit_trigger01', 'exit_trigger02', 'exit_trigger03']
+8_2_1.bin                    : ['entry_trigger01', 'entry_trigger02', 'entry_trigger03', 'entry_trigger04', 'entry_trigger05', 'exit_trigger01', 'exit_trigger02', 'exit_trigger03', 'exit_trigger04', 'exit_trigger05']
+8_2_2.bin                    : ['entry_trigger01', 'entry_trigger02', 'entry_trigger03', 'entry_trigger04', 'exit_trigger01', 'exit_trigger02', 'exit_trigger03', 'exit_trigger04']
+8_2_3.bin                    : ['entry_trigger01', 'entry_trigger02', 'entry_trigger03', 'entry_trigger04', 'exit_trigger01', 'exit_trigger02', 'exit_trigger03', 'exit_trigger04']
+8_2_4.bin                    : ['entry_trigger01', 'entry_trigger02', 'entry_trigger03', 'entry_trigger04', 'exit_trigger01', 'exit_trigger02', 'exit_trigger03', 'exit_trigger04']
+8_2_5.bin                    : ['entry_trigger01', 'entry_trigger02', 'entry_trigger03', 'entry_trigger04', 'exit_trigger01', 'exit_trigger02', 'exit_trigger03', 'exit_trigger04']
+8_7_5_drag.bin               : ['trafficspawntrigger11', 'trafficspawntrigger12', 'trafficspawntrigger13', 'trafficspawntrigger14', 'trafficspawntrigger15', 'trafficspawntrigger16', 'trafficspawntrigger17', 'trafficspawntrigger3', 'trafficspawntrigger4', 'trafficspawntrigger5', 'trafficspawntrigger6', 'trafficspawntrigger7', 'trafficspawntrigger8', 'trigger1', 'trigger2']
+9_7_1_drag.bin               : ['trafficspawntrigger1', 'trafficspawntrigger10', 'trafficspawntrigger11', 'trafficspawntrigger12', 'trafficspawntrigger13', 'trafficspawntrigger14', 'trafficspawntrigger16', 'trafficspawntrigger17', 'trafficspawntrigger18', 'trafficspawntrigger2', 'trafficspawntrigger3', 'trafficspawntrigger4', 'trafficspawntrigger5', 'trafficspawntrigger6', 'trafficspawntrigger7']
+epic_pursuit.bin             : ['barrier_area', 'lose_trigger', 'win_trigger']
+gpcore.bin                   : ['CarClasses_A_Locked', 'CarClasses_B_Locked', 'CarClasses_C_Locked', 'CarClasses_D_Locked', 'CarClasses_E_Locked', 'CarClasses_S_Locked', 'GRIDLOCK', 'MILESTONE_ROADBLOCKS', 'areaunlocktrigger', 'boxtrigger', 'career_zone_settings', 'challengerace_roadblocks_dodged', 'completion_unlock', 'copspawntrigger', 'copy_of_script_rhino_trigger10']
+
+--- другие VLT-файлы в GLOBAL ---
+  gc.vaults
+  attributes.bin
+  Avatars.bin
+  BannerAds.bin
+  CarMakeLogos_Large.bin
+  CarMakeLogos_Small.bin
+  CarMakeLogos_Square.bin
+  CarModelLogos_Small.bin
+  commerce.bin
+  DefaultTextures.bin
+  DYNTEX.BIN
+  FE_ATTRIB.bin
+  GlobalUITextures.bin
+  IconsAchievementBadges.bin
+  IconsBrands.bin
+  IconsCarClasses.bin
+  IconsEventTypes.bin
+  IconsEventTypes_Large.bin
+  IconsMinimap.bin
+  IconsNews.bin
+  IconsPerformance.bin
+  IconsPowerups.bin
+  IconsProducts.bin
+  IconsSkillMods.bin
+  IconsSkills.bin
+  IconsVisualParts.bin
+  InfoMemoryFile.bin
+  InGameMemoryFile.bin
+  LicensePlates.bin
+  NeonGlows.bin
+  RaceRoutes_Small.bin
+  SkyDomeTextures.bin
+  StarterPackTextures.bin
+  Tutorials.bin
+  UniqueBootTextures.bin
+  VinylTextures_Large.bin
+Press Enter...
